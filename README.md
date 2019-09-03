@@ -5,9 +5,9 @@ See it Live:
 
 ## Study Contents:
 
-* [What is Greensock Animation API Study?](#What-is-Scroll-Magic-API-Study)
+* [What is Scroll Magic API Study?](#What-is-Scroll-Magic-API-Study)
 
 <br>
 
 ## What is Scroll Magic API Study?
-The "Greensock Animati
+The Scroll Magic API Study is an exploration of 
