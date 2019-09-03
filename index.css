@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');    /* imports the poppins font to use in your project (compared to standard insertion in meta as link) */
+
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;                        /* all numbers Poppins with default of sans-serif*/
     font-weight: normal;                                       /* set font boldness to normal */
 }
+
