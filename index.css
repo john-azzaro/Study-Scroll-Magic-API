@@ -6,3 +6,8 @@
     font-weight: normal;                                       /* set font boldness to normal */
 }
 
+header {                                                        /* For the header (i.e. "Scoll Magic Study"... */
+    height: 100vh;                                              /* The header section is 100% of the viewport height*/
+    display: flex;                                              /* display is set to flex (elements side by side) */
+    justify-content: center;                                    /* now that display is set to flex, center the content hoizontally */       
+}
