@@ -10,4 +10,5 @@ header {                                                        /* For the heade
     height: 100vh;                                              /* The header section is 100% of the viewport height*/
     display: flex;                                              /* display is set to flex (elements side by side) */
     justify-content: center;                                    /* now that display is set to flex, center the content hoizontally */       
+    align-items: center;                                        /* center content veritcally (remember: stretch, center, start, end)*/
 }
