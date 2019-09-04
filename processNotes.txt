@@ -1,2 +1,32 @@
 Scroll Magic API study Process Notes
 ====================================
+
+PHASE 1: create a basic landing page.
+=====================================
+For the intents of this study, just create a basic landing page (h1 text with flex centered display).
+
+
+PHASE 2: Conceptualize your scroll magic section:
+=================================================
+For the design, we want to have a section that has a title and sections on the side.
+
+--------------------------------------------
+|                                           |
+|                                           |
+|                                           |
+|           Scroll Magic Study              |
+|                                           |
+|                                           |
+|                                           |
+|                                           |
+--------------------------------------------
+|                    |                      |
+|                    |        abc           |
+|                    |                      |
+|                    |                      |
+|      about         |----------------------|
+|                    |                      |
+|                    |        xyz           |
+|                    |                      |
+|                    |                      |
+--------------------------------------------
