@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;                        /* all numbers Poppins with default of sans-serif*/
     font-weight: normal;                                       /* set font boldness to normal */
+    margin: 0;                                                 /* zero-out margin otherwise there will be a white margin on the sides of the window. */
+    padding: 0;                                                 /* zero-out padding otherwise there will be a white margin on the sides of the window. */
 }
 
 header {                                                        /* For the header (i.e. "Scoll Magic Study"... */
@@ -14,7 +16,7 @@ header {                                                        /* For the heade
     background: linear-gradient(to right, rgb(177, 178, 189), rgb(165, 168, 149)); 
 }
 
-header > h1 {
-    font-size: 3em;
-    
+header > h1 {                                                   /* header h1 style*/
+    font-size: 4.5em;
+    color: rgb(255, 255, 255);
 }
