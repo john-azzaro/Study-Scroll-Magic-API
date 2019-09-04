@@ -11,4 +11,10 @@ header {                                                        /* For the heade
     display: flex;                                              /* display is set to flex (elements side by side) */
     justify-content: center;                                    /* now that display is set to flex, center the content hoizontally */       
     align-items: center;                                        /* center content veritcally (remember: stretch, center, start, end)*/
+    background: linear-gradient(to right, rgb(177, 178, 189), rgb(165, 168, 149)); 
+}
+
+header > h1 {
+    font-size: 3em;
+    
 }
