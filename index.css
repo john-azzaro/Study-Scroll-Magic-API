@@ -23,4 +23,17 @@ header > h1 {                                                   /* header h1 sty
 
 .about {                                                        /* For the "about" section, which will function as our scroll section example*/
     height: 300vh;                                              /* set the height to x3 the viewport height*/
+    display: flex;                                              /* display elements side by side. */
+}
+
+.about-title {                                                   /* For the title of the section...*/
+    width: 50%;                                                  /* set 50% (remember this is the left column, so .about-pages will take the other 50%)*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-pages {
+    width: 50%;
 }
