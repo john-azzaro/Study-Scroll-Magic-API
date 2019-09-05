@@ -20,3 +20,7 @@ header > h1 {                                                   /* header h1 sty
     font-size: 4.5em;
     color: rgb(255, 255, 255);
 }
+
+.about {                                                        /* For the "about" section, which will function as our scroll section example*/
+    height: 300vh;                                              /* set the height to x3 the viewport height*/
+}

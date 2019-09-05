@@ -6,8 +6,8 @@ PHASE 1: create a basic landing page.
 For the intents of this study, just create a basic landing page (h1 text with flex centered display).
 
 
-PHASE 2: Conceptualize your scroll magic section:
-=================================================
+PHASE 2: Conceptualize your sections:
+=====================================
 For the design, we want to have a section that has:
 1. Hero landing section
 2. An topic section with:
@@ -40,3 +40,15 @@ For the design, we want to have a section that has:
 |               footer                      |
 |                                           |
 --------------------------------------------
+
+
+PHASE 3: Create large section to incorporate the scroll feature:
+================================================================
+In this case, we will use the "about" section to incorporate 3 text sections.  
+The animation will keep the "about" title level while the right column scrolls.
+The way you do this is to set the viewport height of the about section larger than the sections that are contained within it.
+
+.about {
+    height: 300vh;
+    ...
+}
