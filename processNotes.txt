@@ -8,7 +8,11 @@ For the intents of this study, just create a basic landing page (h1 text with fl
 
 PHASE 2: Conceptualize your scroll magic section:
 =================================================
-For the design, we want to have a section that has a title and sections on the side.
+For the design, we want to have a section that has:
+1. Hero landing section
+2. An topic section with:
+    A. 3 sections of text.
+3. A footer
 
 --------------------------------------------
 |                                           |
@@ -22,11 +26,17 @@ For the design, we want to have a section that has a title and sections on the s
 --------------------------------------------
 |                    |                      |
 |                    |        abc           |
+|                    |----------------------|                     
 |                    |                      |
+|      about         |        xyz           |
 |                    |                      |
-|      about         |----------------------|
+|                    |----------------------|  
 |                    |                      |
-|                    |        xyz           |
+|                    |         123          |
 |                    |                      |
-|                    |                      |
+--------------------------------------------
+|                                           |
+|                                           |
+|               footer                      |
+|                                           |
 --------------------------------------------
