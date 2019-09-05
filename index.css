@@ -28,10 +28,11 @@ header > h1 {                                                   /* header h1 sty
 
 .about-title {                                                   /* For the title of the section...*/
     width: 50%;                                                  /* set 50% (remember this is the left column, so .about-pages will take the other 50%)*/
-    height: 100vh;
-    display: flex;
+    height: 100vh;                                               /* Set the height of the title to 100vh.*/
+    display: flex;                                               /* and center the title accordingly...*/
     justify-content: center;
     align-items: center;
+    font-size: 2.5em;
 }
 
 .about-pages {

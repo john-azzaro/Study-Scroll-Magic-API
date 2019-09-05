@@ -47,8 +47,13 @@ PHASE 3: Create large section to incorporate the scroll feature:
 In this case, we will use the "about" section to incorporate 3 text sections.  
 The animation will keep the "about" title level while the right column scrolls.
 The way you do this is to set the viewport height of the about section larger than the sections that are contained within it.
+Also, make sure you set the display to flex so that the sections will be aligned side-by-side.
 
 .about {
     height: 300vh;
-    ...
+    display: flex;
 }
+
+
+PHASE 4: 
+===============================
