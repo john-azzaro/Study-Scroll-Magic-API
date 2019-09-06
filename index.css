@@ -71,5 +71,6 @@ footer {                                                             /* standard
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(172, 170, 184)
+    background-color: rgb(172, 170, 184);
+    font-size: 2em;
 }
