@@ -1,5 +1,3 @@
-'use strict';
-
 function splitScroll() {
     const controller = new ScrollMagic.Controller();                 // Controller that handles all the scrolls on the page.
 
@@ -8,8 +6,7 @@ function splitScroll() {
         triggerElement: '.about-title',                              // Trigger element that defines what will trigger the scroll (in this case, it is "about-title") so when it reaches this element, scroll effect will execute
     })
     .addIndicators()                                                  // method to see the triggers during development
-    .addTo(controller);
-    
+    .addTo(controller);                                                // then hook up to the controller.
 }
 
 
