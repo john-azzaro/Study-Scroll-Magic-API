@@ -21,13 +21,13 @@ header > h1 {                                                   /* header h1 sty
     color: rgb(255, 255, 255);
 }
 
-.about {                                                        /* For the "about" section, which will function as our scroll section example*/
+.product {                                                      /* For the "product" section, which will function as our scroll section example*/
     height: 300vh;                                              /* set the height to x3 the viewport height*/
     display: flex;                                              /* display elements side by side. */
 }
 
-.about-title {                                                   /* For the title of the section...*/
-    width: 50%;                                                  /* set 50% (remember this is the left column, so .about-pages will take the other 50%)*/
+.product-title {                                                 /* For the title of the section...*/
+    width: 50%;                                                  /* set 50% (remember this is the left column, so .product-pages will take the other 50%)*/
     height: 100vh;                                               /* Set the height of the title to 100vh.*/
     display: flex;                                               /* and center the title accordingly...*/
     justify-content: center;
@@ -36,42 +36,48 @@ header > h1 {                                                   /* header h1 sty
     margin: 0!important;                                         /* FOR JS BUG: makes sure that the reveal of the title is smooth */
 }
 
-.about-pages {                                                    /* For the right side...*/
+.product-pages {                                                  /* For the right side...*/
     width: 50%;                                                   /* set to 50% so that the left and right are half-and-half */
 }
 
-.about-pages div {                                                 /* For each of the divs in the about-pages section...*/
+.product-pages div {                                               /* For each of the divs in the product-pages section...*/
     height: 100vh;                                                 /* each div will have a 100% viewport size.*/
     display: flex;                                                 /* align elements side-by-side */
     flex-direction: column;                                        /* but have the direction as a column so the elements are stacked on top of each other.*/
-    justify-content: space-around;                                       /* have the content centered in the middle of the 100vh */
+    justify-content: center;                                       /* have the content centered in the middle of the 100vh */
     align-items: center;
     color: white;
 }
 
-.about-pages div > p {                                             /* for each of the paragraphs inside the divs in the about-pages...*/
+.product-pages div > h2 {                                           /* for each h2 in the divs in product-pages */
+    padding-bottom: 5%;                                         
+    font-size: 2em;
+}
+
+.product-pages div > p {                                           /* for each of the paragraphs inside the divs in the product-pages...*/
     width: 80%;                                                    /* make the width of the paragraph 80% of the columns */
     font-size: 1.2em;                                              /* font size and line height to make it look good...*/
     line-height: 30px;
 }
  
-.about-pages div:nth-child(1) {                                     /* select the FIRST child inside the div...*/
+.product-pages div:nth-child(1) {                                     /* select the FIRST child inside the div...*/
     background-color: rgb(209, 212, 192);
 } 
 
-.about-pages div:nth-child(2) {                                     /* select the FIRST child inside the div...*/
-    background-color: rgb(192, 211, 212);
+.product-pages div:nth-child(2) {                                     /* select the FIRST child inside the div...*/
+    background-color: rgb(178, 203, 204);
 } 
 
-.about-pages div:nth-child(3) {                                     /* select the FIRST child inside the div...*/
+.product-pages div:nth-child(3) {                                     /* select the FIRST child inside the div...*/
     background-color: rgb(209, 192, 212);
 } 
 
-footer {                                                             /* standard centering for footer section*/
+footer {                                                              /* standard centering for footer section*/
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(172, 170, 184);
     font-size: 2em;
+    color: white;
 }
