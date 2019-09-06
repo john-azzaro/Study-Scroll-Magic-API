@@ -33,6 +33,7 @@ header > h1 {                                                   /* header h1 sty
     justify-content: center;
     align-items: center;
     font-size: 2.5em;
+    margin: 0!important;                                         /* FOR JS BUG: makes sure that the reveal of the title is smooth */
 }
 
 .about-pages {                                                    /* For the right side...*/
