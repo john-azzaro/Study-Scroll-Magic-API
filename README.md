@@ -53,5 +53,4 @@ Since this study is ongoing, basic functionalities are covered first and more ad
 ![sm1](https://user-images.githubusercontent.com/37447586/64448086-b52d7000-d091-11e9-9603-356d5b2c4ad6.png)
 ![sm2](https://user-images.githubusercontent.com/37447586/64448087-b52d7000-d091-11e9-8e6a-fdc6fbaa99cf.png)
 ![sm3](https://user-images.githubusercontent.com/37447586/64448089-b5c60680-d091-11e9-80bc-6767906917d3.png)
-![sm4](https://user-images.githubusercontent.com/37447586/64448090-b5c60680-d091-11e9-80f6-29385c14b8e0.png)
-![sm5](https://user-images.githubusercontent.com/37447586/64448091-b5c60680-d091-11e9-8afc-36775d4c191f.png)
+![sm6](https://user-images.githubusercontent.com/37447586/64448240-12c1bc80-d092-11e9-91b4-a91d648fb2e7.png)
