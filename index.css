@@ -35,6 +35,6 @@ header > h1 {                                                   /* header h1 sty
     font-size: 2.5em;
 }
 
-.about-pages {
-    width: 50%;
+.about-pages {                                                    /* For the right side...*/
+    width: 50%;                                                   /* set to 50% so that the left and right are half-and-half */
 }

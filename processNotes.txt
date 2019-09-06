@@ -55,5 +55,18 @@ Also, make sure you set the display to flex so that the sections will be aligned
 }
 
 
-PHASE 4: 
-===============================
+PHASE 4: Set the styling for the title:
+=======================================
+So we know we are going to have two sides for our layout.  
+First, we need to style the title section, like so:
+
+.about-title {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+PHASE 5: 
