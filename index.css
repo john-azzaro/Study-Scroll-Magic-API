@@ -45,6 +45,31 @@ header > h1 {                                                   /* header h1 sty
     flex-direction: column;                                        /* but have the direction as a column so the elements are stacked on top of each other.*/
     justify-content: space-around;                                       /* have the content centered in the middle of the 100vh */
     align-items: center;
+    color: white;
+}
 
+.about-pages div > p {                                             /* for each of the paragraphs inside the divs in the about-pages...*/
+    width: 80%;                                                    /* make the width of the paragraph 80% of the columns */
+    font-size: 1.2em;                                              /* font size and line height to make it look good...*/
+    line-height: 30px;
+}
+ 
+.about-pages div:nth-child(1) {                                     /* select the FIRST child inside the div...*/
+    background-color: rgb(209, 212, 192);
+} 
 
+.about-pages div:nth-child(2) {                                     /* select the FIRST child inside the div...*/
+    background-color: rgb(192, 211, 212);
+} 
+
+.about-pages div:nth-child(3) {                                     /* select the FIRST child inside the div...*/
+    background-color: rgb(209, 192, 212);
+} 
+
+footer {                                                             /* standard centering for footer section*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(172, 170, 184)
 }
