@@ -42,7 +42,10 @@ For the design, we want to have a section that has:
 --------------------------------------------
 
 
-PHASE 3: Create large section to incorporate the scroll feature:
+PHASE 3: Stylize your page
+===========================
+
+STEP 1: Create large section to incorporate the scroll feature:
 ================================================================
 In this case, we will use the "about" section to incorporate 3 text sections.  
 The animation will keep the "about" title level while the right column scrolls.
@@ -55,7 +58,7 @@ Also, make sure you set the display to flex so that the sections will be aligned
 }
 
 
-PHASE 4: Set the styling for the title and content section:
+STEP 2: Set the styling for the title and content section:
 =======================================
 So we know we are going to have two sides for our layout.  
 First, we need to style the title section, like so:
@@ -74,13 +77,16 @@ First, we need to style the title section, like so:
 }
 
 
-PHASE 5: Style for the divs in the content section (i.e. right):
+STEP 3: Style for the divs in the content section (i.e. right):
 ================================================================
 Note that as far as this example is concerned, we are selecting the divs but in something larger you would
-most likely want to target a class.
+most likely want to target a class.  See the full stylization in the css files.
 
-Here, we want each div to have 100% viewport height.
 
-.about-pages div {
-    height: 100vh;
-}
+STEP 4: Style the footer
+========================
+footer styled using standard centering technique.  If you need a walk through, it is exactly the same as the 
+header section.
+
+
+
