@@ -8,85 +8,88 @@ For the intents of this study, just create a basic landing page (h1 text with fl
 
 PHASE 2: Conceptualize your sections:
 =====================================
-For the design, we want to have a section that has:
-1. Hero landing section
-2. An topic section with:
-    A. 3 sections of text.
-3. A footer
+    For the design, we want to have a section that has:
+    1. Hero landing section
+    2. An topic section with:
+        A. 3 sections of text.
+    3. A footer
 
---------------------------------------------
-|                                           |
-|                                           |
-|                                           |
-|           Scroll Magic Study              |
-|                                           |
-|                                           |
-|                                           |
-|                                           |
---------------------------------------------
-|                    |                      |
-|                    |        abc           |
-|                    |----------------------|                     
-|                    |                      |
-|      about         |        xyz           |
-|                    |                      |
-|                    |----------------------|  
-|                    |                      |
-|                    |         123          |
-|                    |                      |
---------------------------------------------
-|                                           |
-|                                           |
-|               footer                      |
-|                                           |
---------------------------------------------
+    --------------------------------------------
+    |                                           |
+    |                                           |
+    |                                           |
+    |           Scroll Magic Study              | <== 100vh
+    |                                           |
+    |                                           |
+    |                                           |
+    |                                           |
+    --------------------------------------------
+    |                    |                      |
+    |                    |        abc           | <== 100vh
+    |                    |----------------------|                     
+    |                    |                      |
+    |      about         |        xyz           | <== 100vh
+    |                    |                      |
+    |                    |----------------------|  
+    |                    |                      |
+    |                    |         123          | <== 100vh
+    |                    |                      |
+    --------------------------------------------
+    |                                           |
+    |                                           |
+    |               footer                      | <== 100vh
+    |                                           |
+    --------------------------------------------
 
 
 PHASE 3: Stylize your page
 ===========================
 
-STEP 1: Create large section to incorporate the scroll feature:
-================================================================
-In this case, we will use the "about" section to incorporate 3 text sections.  
-The animation will keep the "about" title level while the right column scrolls.
-The way you do this is to set the viewport height of the about section larger than the sections that are contained within it.
-Also, make sure you set the display to flex so that the sections will be aligned side-by-side.
+    STEP 1: Create large section to incorporate the scroll feature:
+    ================================================================
+    In this case, we will use the "about" section to incorporate 3 text sections.  
+    The animation will keep the "about" title level while the right column scrolls.
+    The way you do this is to set the viewport height of the about section larger than the sections that are contained within it.
+    Also, make sure you set the display to flex so that the sections will be aligned side-by-side.
 
-.about {
-    height: 300vh;
-    display: flex;
-}
-
-
-STEP 2: Set the styling for the title and content section:
-=======================================
-So we know we are going to have two sides for our layout.  
-First, we need to style the title section, like so:
-
-.about-title {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5em;
-}
-
-.about-pages { 
-    width: 50%;
-}
+    .about {
+        height: 300vh;
+        display: flex;
+    }
 
 
-STEP 3: Style for the divs in the content section (i.e. right):
-================================================================
-Note that as far as this example is concerned, we are selecting the divs but in something larger you would
-most likely want to target a class.  See the full stylization in the css files.
+    STEP 2: Set the styling for the title and content section:
+    =======================================
+    So we know we are going to have two sides for our layout.  
+    First, we need to style the title section, like so:
+
+    .about-title {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5em;
+    }
+
+    .about-pages { 
+        width: 50%;
+    }
 
 
-STEP 4: Style the footer
-========================
-footer styled using standard centering technique.  If you need a walk through, it is exactly the same as the 
-header section.
+    STEP 3: Style for the divs in the content section (i.e. right):
+    ================================================================
+    Note that as far as this example is concerned, we are selecting the divs but in something larger you would
+    most likely want to target a class.  See the full stylization in the css files.
 
 
+    STEP 4: Style the footer
+    ========================
+    footer styled using standard centering technique.  If you need a walk through, it is exactly the same as the 
+    header section.
 
+
+PHASE 3: load the scroll magic script to your html file
+=======================================================
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
