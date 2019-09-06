@@ -7,6 +7,9 @@ See it Live: https://john-azzaro.github.io/Study-Scroll-Magic-API/
 
 * [What is Scroll Magic API Study?](#What-is-Scroll-Magic-API-Study)
 * [What libraries can you use with Scroll Magic?](#What-libraries-can-you-use-with-Scroll-Magic)
+* [Does the Scroll Magic API Study feature commentary?](#Does-the-Scroll-Magic-API-Study-feature-commentary)
+* [What are the key features of the Scroll Magic API Study?](#What-are-the-key-features-of-the-Scroll-Magic-API-Study-)
+* [Screenshots](#Screenshots)
 
 <br>
 
@@ -25,8 +28,8 @@ link below.
 | **Libraries:**                            | **Links:**                             |
 | ---------------------------------------- | ----------------------------------------------|
 |  Scroll Magic Libraries               |   https://cdnjs.com/libraries/ScrollMagic              |
-|  Scroll Magic                |   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>               |
-|  Add Indicators (for development)                |   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>               |
+|  Scroll Magic                |   https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js               |
+|  Add Indicators (for development)                |   https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js               |
 
 <br>
 
@@ -45,3 +48,10 @@ Since this study is ongoing, basic functionalities are covered first and more ad
 | Indicators              |  Indicators which show trigger points (currently uncommented)     |
 
 <br>
+
+## Screenshots
+![sm1](https://user-images.githubusercontent.com/37447586/64448086-b52d7000-d091-11e9-9603-356d5b2c4ad6.png)
+![sm2](https://user-images.githubusercontent.com/37447586/64448087-b52d7000-d091-11e9-8e6a-fdc6fbaa99cf.png)
+![sm3](https://user-images.githubusercontent.com/37447586/64448089-b5c60680-d091-11e9-80bc-6767906917d3.png)
+![sm4](https://user-images.githubusercontent.com/37447586/64448090-b5c60680-d091-11e9-80f6-29385c14b8e0.png)
+![sm5](https://user-images.githubusercontent.com/37447586/64448091-b5c60680-d091-11e9-8afc-36775d4c191f.png)
