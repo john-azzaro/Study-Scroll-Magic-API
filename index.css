@@ -39,6 +39,12 @@ header > h1 {                                                   /* header h1 sty
     width: 50%;                                                   /* set to 50% so that the left and right are half-and-half */
 }
 
-.about-pages div {
-    height: 100vh;
+.about-pages div {                                                 /* For each of the divs in the about-pages section...*/
+    height: 100vh;                                                 /* each div will have a 100% viewport size.*/
+    display: flex;                                                 /* align elements side-by-side */
+    flex-direction: column;                                        /* but have the direction as a column so the elements are stacked on top of each other.*/
+    justify-content: space-around;                                       /* have the content centered in the middle of the 100vh */
+    align-items: center;
+
+
 }
