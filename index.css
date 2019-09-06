@@ -38,3 +38,7 @@ header > h1 {                                                   /* header h1 sty
 .about-pages {                                                    /* For the right side...*/
     width: 50%;                                                   /* set to 50% so that the left and right are half-and-half */
 }
+
+.about-pages div {
+    height: 100vh;
+}

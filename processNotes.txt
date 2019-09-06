@@ -55,7 +55,7 @@ Also, make sure you set the display to flex so that the sections will be aligned
 }
 
 
-PHASE 4: Set the styling for the title:
+PHASE 4: Set the styling for the title and content section:
 =======================================
 So we know we are going to have two sides for our layout.  
 First, we need to style the title section, like so:
@@ -69,4 +69,18 @@ First, we need to style the title section, like so:
     font-size: 2.5em;
 }
 
-PHASE 5: 
+.about-pages { 
+    width: 50%;
+}
+
+
+PHASE 5: Style for the divs in the content section (i.e. right):
+================================================================
+Note that as far as this example is concerned, we are selecting the divs but in something larger you would
+most likely want to target a class.
+
+Here, we want each div to have 100% viewport height.
+
+.about-pages div {
+    height: 100vh;
+}
