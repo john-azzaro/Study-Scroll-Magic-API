@@ -44,21 +44,39 @@ To use Scroll Magic, you need to create a **controller** for the **scenes**.
 * *Scenes* define what happens at certain scroll positions, and can trigger animations, pin elements, change element classes, etc.  See below for a basic workflow.
 
 #### STEP 1: Create a Scroll Magic controller:
+To create a controller, you simply create a new Scroll Magic controll and assign it a variable with the name "controller".  Remember that in this case we are using the default
+settings class in which the scoll container is the browser window.
 ```JavaScript
     const controller = new ScrollMagic.Controller();  
 ```
-#### STEP 2: Define a Scene:
-| **Options for scene**            |
+
+#### STEP 2: Define a SINGLE Scene:
+When you "define the scene", you care defining where the controller reacts ans how.  Below, the new scene first has an object of associated properties and values that define the behaior of the scene to be created.  
+
+In the example below (see study files for working example), we first specifiy the **scene parameters**:
+
+* The *trigger element* (i.e. the element in the DOM that will trigger the scene to start) in this case is the products-title section.  This is where the animation will *start*.
+* The *trigger hook* is what will essentially trigger the animation start.  Note that a setting of 1 will peg the trigger to the top of the screen, 0 on the bottom, .05 mid, etc.
+* The *duration* is the length of the animation effect.  In the example below, duration is set to 200%, which is 200% of the container.  However, if you specify 200, that would be 200px which would be exactly 200 pixels from the start.
+
+Then, you chain any **control methods** you require for the animation.  In this case, we are using ```.setPin('product-title')``` that will pin the element for the duration of the animation.
+We can then use the ```.addIndicators()``` method to have visual cues where the triggers are, which should be removed or commented out in production.  Lastly, we want to use the ```.addTo``` method so that we can add it to the controller!.
+
+There are a ton of options for defining a scene which you should check out:
+
+| **Options for scenes**            |
 | ---------------------------------------- |
 |  http://scrollmagic.io/docs/ScrollMagic.Scene.html#ScrollScene             |   
+
+
 ```JavaScript
     new ScrollMagic.Scene({                   // Create a new Scroll Magic scene, which defines how the controller should react and how.
-        duration: '200%',                     // Object of associated properties and values.
-        triggerElement: '.product-title',
-        triggerHook: 0
+        triggerElement: '.product-title',     // The element that will trigger the scene.
+        triggerHook: 1,        
+        duration: '200%'                      // Object of associated properties and values.
         })
-        .addIndicators()
-        .setPin('.product-title')
+        .setPin('.product-title')             // control method that pins the specified element for duration of the animat
+        .addIndicators()                      // FOR DEVELOPMENT (shows triggers if you use associated library)         
         .addTo(controller);
 ```
 
