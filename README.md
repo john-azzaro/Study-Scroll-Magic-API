@@ -48,7 +48,9 @@ To use Scroll Magic, you need to create a **controller** for the **scenes**.
     const controller = new ScrollMagic.Controller();  
 ```
 #### STEP 2: Define a Scene:
-For a complete list of scene control methods, parameters, event handling, events, etc., see http://scrollmagic.io/docs/ScrollMagic.Scene.html#ScrollScene.
+| **Options for scene**            |
+| ---------------------------------------- |
+|  http://scrollmagic.io/docs/ScrollMagic.Scene.html#ScrollScene             |   
 ```JavaScript
     new ScrollMagic.Scene({                   // Create a new Scroll Magic scene, which defines how the controller should react and how.
         duration: '200%',                     // Object of associated properties and values.
@@ -59,8 +61,6 @@ For a complete list of scene control methods, parameters, event handling, events
         .setPin('.product-title')
         .addTo(controller);
 ```
-
-
 
 <br>
 
