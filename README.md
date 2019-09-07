@@ -34,18 +34,18 @@ link below.
 | ---------------------------------------- | ----------------------------------------------|
 |  Scroll Magic Libraries                  |   https://cdnjs.com/libraries/ScrollMagic              |
 |  Scroll Magic                            |   https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js               |
-|  Add Indicators (for development)        |   https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js               |
+|  Add Indicators                          |   https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js               |
 
 <br>
 
 ## How do you use Scroll Magic?
-To use Scroll Magic, you need to create a **controller** for the **scenes**.  
+To use Scroll Magic, you need to create a **controller** and **scenes** to define the animations.  
 * There is one *controller* for each container, which is essentially the browser window. For example, a single page website that the user scrolls down is handled by a single controller.  
 * *Scenes* define what happens at certain scroll positions, and can trigger animations, pin elements, change element classes, etc.  See below for a basic workflow.
 
 <br>
 
-#### STEP 1: Create a Scroll Magic controller:
+### STEP 1: Create a Scroll Magic controller:
 To create a controller, you simply create a new Scroll Magic controll and assign it a variable with the name "controller".  Remember that in this case we are using the default
 settings class in which the scoll container is the browser window.
 ```JavaScript
@@ -54,7 +54,7 @@ settings class in which the scoll container is the browser window.
 
 <br>
 
-#### STEP 2: Define a SINGLE Scene:
+### STEP 2: Define a SINGLE Scene:
 When you "define the scene", you care defining where the controller reacts ans how.  Below, the new scene first has an object of associated properties and values that define the behaior of the scene to be created.  
 
 In the example below (see study files for working example), we first specifiy the **scene parameters**:
@@ -66,29 +66,30 @@ In the example below (see study files for working example), we first specifiy th
 Then, you chain any **control methods** you require for the animation.  In this case, we are using ```.setPin('product-title')``` that will pin the element for the duration of the animation.
 We can then use the ```.addIndicators()``` method to have visual cues where the triggers are, which should be removed or commented out in production.  Lastly, we want to use the ```.addTo``` method so that we can add it to the controller!.
 
+```JavaScript
+    new ScrollMagic.Scene({                   // Create a new Scroll Magic scene, which defines how the controller should react and how.
+        triggerElement: '.product-title',     // The element that will trigger the scene.
+        triggerHook: 1,                       // 
+        duration: '200%'                      // Object of associated properties and values.
+        })
+        .setPin('.product-title')             // control method that pins the specified element for duration of the animation.
+        .addIndicators()                      // FOR DEVELOPMENT (shows triggers if you use associated library)         
+        .addTo(controller);                   // Add this scene to the controller!
+```
+### Scene Options
 There are a ton of options for defining a scene which you should check out:
 
-| **Options for scenes**            |
+| **ScrollMagic.Scene Options**            |
 | ---------------------------------------- |
 |  http://scrollmagic.io/docs/ScrollMagic.Scene.html#ScrollScene             |   
 
 
-```JavaScript
-    new ScrollMagic.Scene({                   // Create a new Scroll Magic scene, which defines how the controller should react and how.
-        triggerElement: '.product-title',     // The element that will trigger the scene.
-        triggerHook: 1,        
-        duration: '200%'                      // Object of associated properties and values.
-        })
-        .setPin('.product-title')             // control method that pins the specified element for duration of the animat
-        .addIndicators()                      // FOR DEVELOPMENT (shows triggers if you use associated library)         
-        .addTo(controller);
-```
-
 <br>
+
 
 ## Does the Scroll Magic API Study feature commentary?
 Yes!  I use extensive commentary in the study, specifically in the CSS and JavaScript files, as well as the processNotes file where I attempt to lay out the
-step-by-step process I take creating the study example.
+step-by-step process in the creation of the study example.
 
 <br>
 
