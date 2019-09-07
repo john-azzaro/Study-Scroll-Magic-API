@@ -43,12 +43,16 @@ To use Scroll Magic, you need to create a **controller** for the **scenes**.
 * There is one *controller* for each container, which is essentially the browser window. For example, a single page website that the user scrolls down is handled by a single controller.  
 * *Scenes* define what happens at certain scroll positions, and can trigger animations, pin elements, change element classes, etc.  See below for a basic workflow.
 
+<br>
+
 #### STEP 1: Create a Scroll Magic controller:
 To create a controller, you simply create a new Scroll Magic controll and assign it a variable with the name "controller".  Remember that in this case we are using the default
 settings class in which the scoll container is the browser window.
 ```JavaScript
     const controller = new ScrollMagic.Controller();  
 ```
+
+<br>
 
 #### STEP 2: Define a SINGLE Scene:
 When you "define the scene", you care defining where the controller reacts ans how.  Below, the new scene first has an object of associated properties and values that define the behaior of the scene to be created.  
