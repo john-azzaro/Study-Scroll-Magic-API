@@ -132,3 +132,6 @@ PHASE 4: Setting up the JS:
 
 
 
+Additional resources:
+======================
+https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-How-to-use-ScrollMagic
