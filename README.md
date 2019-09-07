@@ -7,6 +7,7 @@ See it Live: https://john-azzaro.github.io/Study-Scroll-Magic-API/
 
 * [What is Scroll Magic API Study?](#What-is-Scroll-Magic-API-Study)
 * [What libraries can you use with Scroll Magic?](#What-libraries-can-you-use-with-Scroll-Magic)
+* [How do you use Scroll Magic?](#How-do-you-use-Scroll-Magic)
 * [Does the Scroll Magic API Study feature commentary?](#Does-the-Scroll-Magic-API-Study-feature-commentary)
 * [What are the key features of the Scroll Magic API Study?](#What-are-the-key-features-of-the-Scroll-Magic-API-Study-)
 * [Screenshots](#Screenshots)
@@ -18,9 +19,9 @@ The Scroll Magic API Study is an exploration of an extremely useful and realtive
 At its core, the library helps animate web elements based on the user scroll position.  In the study example, when the user scrolls
 down from the landing section, the product element on the left will "pin" to a specfic point while on the right content will scroll.
 
-| **ScrollMagic Documentation**                                        |
+| **ScrollMagic Documentation**            |
 | ---------------------------------------- |
-|  http://scrollmagic.io/docs/               |   
+|  http://scrollmagic.io/docs/             |   
 
 <br>
 
@@ -29,11 +30,22 @@ There are a number of libraries you can use for Scroll Magic.  For the purpose o
 as an "add indicators" library so that we can have visual cues during development.  For a complete list of scripts you can use, click the Scroll Magic libraries
 link below.
 
-| **Libraries:**                            | **Links:**                             |
+| **Libraries:**                           | **Links:**                             |
 | ---------------------------------------- | ----------------------------------------------|
-|  Scroll Magic Libraries               |   https://cdnjs.com/libraries/ScrollMagic              |
-|  Scroll Magic                |   https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js               |
-|  Add Indicators (for development)                |   https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js               |
+|  Scroll Magic Libraries                  |   https://cdnjs.com/libraries/ScrollMagic              |
+|  Scroll Magic                            |   https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js               |
+|  Add Indicators (for development)        |   https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js               |
+
+<br>
+
+## How do you use Scroll Magic?
+To use Scroll Magic, you need to create a *controller* for the *scenes*.  There is one **controller** for each container, which is essentially the browser window.  
+For example, a single page website that the user scrolls down is handled by a single controller.  **Scenes** define what happens at certain scroll positions, and can 
+trigger animations, pin elements, change element classes, etc.  See below for a basic workflow.
+
+### STEP 1: 
+
+
 
 <br>
 
@@ -48,8 +60,8 @@ Since this study is ongoing, basic functionalities are covered first and more ad
 
 | **Features:**                            | **Feature Notes:**                             |
 | ---------------------------------------- | ----------------------------------------------|
-| Scroll animation              |  animation of elements triggered on user scroll     |
-| Indicators              |  Indicators which show trigger points (currently uncommented)     |
+| Scroll animation                         |  animation of elements triggered on user scroll     |
+| Indicators                               |  Indicators which show trigger points (currently uncommented)     |
 
 <br>
 
