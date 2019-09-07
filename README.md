@@ -8,6 +8,9 @@ See it Live: https://john-azzaro.github.io/Study-Scroll-Magic-API/
 * [What is Scroll Magic API Study?](#What-is-Scroll-Magic-API-Study)
 * [What libraries can you use with Scroll Magic?](#What-libraries-can-you-use-with-Scroll-Magic)
 * [How do you use Scroll Magic?](#How-do-you-use-Scroll-Magic)
+   * [How do you create a Controller?](#How-do-you-create-a-Controller)
+   * [How do you define a Scene?](#How-do-you-define-a-Scene)
+   * [What other scene options are there?](#What-other-scene-options-are-there)
 * [Does the Scroll Magic API Study feature commentary?](#Does-the-Scroll-Magic-API-Study-feature-commentary)
 * [What are the key features of the Scroll Magic API Study?](#What-are-the-key-features-of-the-Scroll-Magic-API-Study-)
 * [Screenshots](#Screenshots)
@@ -45,7 +48,7 @@ To use Scroll Magic, you need to create a **controller** and **scenes** to defin
 
 <br>
 
-### STEP 1: Create a Scroll Magic controller:
+### How do you create a Controller?
 To create a controller, you simply create a new Scroll Magic controll and assign it a variable with the name "controller".  Remember that in this case we are using the default
 settings class in which the scoll container is the browser window.
 ```JavaScript
@@ -54,7 +57,7 @@ settings class in which the scoll container is the browser window.
 
 <br>
 
-### STEP 2: Define a SINGLE Scene:
+### How do you define a Scene?
 When you "define the scene", you care defining where the controller reacts ans how.  Below, the new scene first has an object of associated properties and values that define the behaior of the scene to be created.  
 
 In the example below (see study files for working example), we first specifiy the **scene parameters**:
@@ -76,7 +79,7 @@ We can then use the ```.addIndicators()``` method to have visual cues where the 
         .addIndicators()                      // FOR DEVELOPMENT (shows triggers if you use associated library)         
         .addTo(controller);                   // Add this scene to the controller!
 ```
-### Scene Options
+### What other scene options are there?
 There are a ton of options for defining a scene which you should check out:
 
 | **ScrollMagic.Scene Options**            |
