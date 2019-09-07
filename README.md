@@ -18,6 +18,10 @@ The Scroll Magic API Study is an exploration of an extremely useful and realtive
 At its core, the library helps animate web elements based on the user scroll position.  In the study example, when the user scrolls
 down from the landing section, the product element on the left will "pin" to a specfic point while on the right content will scroll.
 
+| **ScrollMagic Documentation**                                        |
+| ---------------------------------------- |
+|  http://scrollmagic.io/docs/               |   
+
 <br>
 
 ## What libraries can you use with Scroll Magic?
