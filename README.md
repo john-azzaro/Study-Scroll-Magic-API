@@ -39,11 +39,11 @@ link below.
 <br>
 
 ## How do you use Scroll Magic?
-To use Scroll Magic, you need to create a *controller* for the *scenes*.  There is one **controller** for each container, which is essentially the browser window.  
-For example, a single page website that the user scrolls down is handled by a single controller.  **Scenes** define what happens at certain scroll positions, and can 
-trigger animations, pin elements, change element classes, etc.  See below for a basic workflow.
+To use Scroll Magic, you need to create a *controller* for the *scenes*.  
+* There is one **controller** for each container, which is essentially the browser window. For example, a single page website that the user scrolls down is handled by a single controller.  
+* **Scenes** define what happens at certain scroll positions, and can trigger animations, pin elements, change element classes, etc.  See below for a basic workflow.
 
-### STEP 1: 
+#### STEP 1: 
 
 
 
