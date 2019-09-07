@@ -39,11 +39,26 @@ link below.
 <br>
 
 ## How do you use Scroll Magic?
-To use Scroll Magic, you need to create a *controller* for the *scenes*.  
-* There is one **controller** for each container, which is essentially the browser window. For example, a single page website that the user scrolls down is handled by a single controller.  
-* **Scenes** define what happens at certain scroll positions, and can trigger animations, pin elements, change element classes, etc.  See below for a basic workflow.
+To use Scroll Magic, you need to create a **controller** for the **scenes**.  
+* There is one *controller* for each container, which is essentially the browser window. For example, a single page website that the user scrolls down is handled by a single controller.  
+* *Scenes* define what happens at certain scroll positions, and can trigger animations, pin elements, change element classes, etc.  See below for a basic workflow.
 
-#### STEP 1: 
+#### STEP 1: Create a Scroll Magic controller:
+```JavaScript
+    const controller = new ScrollMagic.Controller();  
+```
+#### STEP 2: Define a Scene:
+For a complete list of scene control methods, parameters, event handling, events, etc., see http://scrollmagic.io/docs/ScrollMagic.Scene.html#ScrollScene.
+```JavaScript
+    new ScrollMagic.Scene({                   // Create a new Scroll Magic scene, which defines how the controller should react and how.
+        duration: '200%',                     // Object of associated properties and values.
+        triggerElement: '.product-title',
+        triggerHook: 0
+        })
+        .addIndicators()
+        .setPin('.product-title')
+        .addTo(controller);
+```
 
 
 
