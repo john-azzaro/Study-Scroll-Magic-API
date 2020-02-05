@@ -28,6 +28,27 @@ down from the landing section, the product element on the left will "pin" to a s
 
 <br>
 
+
+## What are the key takeaways from the Scroll magic study?
+
+<dl> 
+<dd>
+
+### 
+----------
+Pretty straight forward API, set a controller, create a new scene and add the properties that you want to the scoll effect. 
+
+### Add indicators to aid in development
+----------
+The scroll magic
+
+
+</dd>
+</dl>
+
+<br>
+
+
 ## What libraries can you use with Scroll Magic?
 There are a number of libraries you can use for Scroll Magic.  For the purpose of this study, we use the most comprehensive Scroll Magic library as well
 as an "add indicators" library so that we can have visual cues during development.  For a complete list of scripts you can use, click the Scroll Magic libraries
