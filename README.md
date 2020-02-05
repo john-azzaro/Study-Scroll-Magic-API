@@ -34,13 +34,15 @@ down from the landing section, the product element on the left will "pin" to a s
 <dl> 
 <dd>
 
-### 
+### Great effects and very easy to implement
 ----------
-Pretty straight forward API, set a controller, create a new scene and add the properties that you want to the scoll effect. 
+Pretty straight forward API, set a controller, create a new scene and add the properties that you want to the scroll effect, then add to the controller. 
+
 
 ### Add indicators to aid in development
 ----------
-The scroll magic
+The scroll magic api comes with a really neat feature that lets you visualize the breakpoints and triggerpoints for scroll effects. DO NOT keep these in the
+final version but keep them around while you configure the effect.
 
 
 </dd>
