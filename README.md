@@ -6,6 +6,7 @@ See it Live: https://john-azzaro.github.io/Study-Scroll-Magic-API/
 ## Study Contents:
 
 * [What is Scroll Magic API Study?](#What-is-Scroll-Magic-API-Study)
+* [What are the key takeaways from the Scroll magic study?](#What-are-the-key-takeaways-from-the-Scroll-magic-study)
 * [What libraries can you use with Scroll Magic?](#What-libraries-can-you-use-with-Scroll-Magic)
 * [How do you use Scroll Magic?](#How-do-you-use-Scroll-Magic)
    * [How do you create a Controller?](#How-do-you-create-a-Controller)
