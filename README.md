@@ -3,6 +3,17 @@ See it Live: https://john-azzaro.github.io/Study-Scroll-Magic-API/
 
 <br>
 
+## What is Scroll Magic API Study?
+The Scroll Magic API Study is an exploration of an extremely useful and realtively easy to use scroll interaction library.  
+At its core, the library helps animate web elements based on the user scroll position.  In the study example, when the user scrolls
+down from the landing section, the product element on the left will "pin" to a specfic point while on the right content will scroll.
+
+| **ScrollMagic Documentation**            |
+| ---------------------------------------- |
+|  http://scrollmagic.io/docs/             |   
+
+<br>
+
 ## Study Contents:
 
 * [What is Scroll Magic API Study?](#What-is-Scroll-Magic-API-Study)
@@ -17,18 +28,6 @@ See it Live: https://john-azzaro.github.io/Study-Scroll-Magic-API/
 * [Screenshots](#Screenshots)
 
 <br>
-
-## What is Scroll Magic API Study?
-The Scroll Magic API Study is an exploration of an extremely useful and realtively easy to use scroll interaction library.  
-At its core, the library helps animate web elements based on the user scroll position.  In the study example, when the user scrolls
-down from the landing section, the product element on the left will "pin" to a specfic point while on the right content will scroll.
-
-| **ScrollMagic Documentation**            |
-| ---------------------------------------- |
-|  http://scrollmagic.io/docs/             |   
-
-<br>
-
 
 ## What are the key takeaways from the Scroll magic study?
 
